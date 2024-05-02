@@ -1,0 +1,26 @@
+@font-face {
+    font-family: digital-dismay;
+    src: url("fonts/Digital\ Dismay.otf");
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: digital-dismay;
+    font-size: 10rem;
+
+}
+
+.clock {
+    color: #406449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.clock div {
+    padding: 25px;
+    background-color:azure;
+    border-radius: 20px;
+}
